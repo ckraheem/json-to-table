@@ -1,0 +1,85 @@
+[
+  {
+    "invoiceId": 1001,
+    "passengerId": 2046,
+    "issueDate": "2024-01-15",
+    "amount": 5000.00,
+    "balance": 2000.00,
+    "status": "Partial",
+    "description": "Invoice for January 2024",
+    "payments": [
+      {
+        "paymentId": 1,
+        "date": "2024-01-20",
+        "amount": 1500.00,
+        "method": "Credit Card"
+      },
+      {
+        "paymentId": 2,
+        "date": "2024-02-10",
+        "amount": 1500.00,
+        "method": "Bank Transfer"
+      }
+    ],
+    "passengerInfo": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+1-555-0123",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001"
+      }
+    }
+  },
+  {
+    "invoiceId": 1002,
+    "passengerId": 3057,
+    "issueDate": "2024-02-01",
+    "amount": 3200.00,
+    "balance": 0.00,
+    "status": "Paid",
+    "description": "Invoice for February 2024 - Fully paid on time",
+    "payments": [
+      {
+        "paymentId": 3,
+        "date": "2024-02-05",
+        "amount": 3200.00,
+        "method": "Wire Transfer"
+      }
+    ],
+    "passengerInfo": {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+1-555-0456",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001"
+      }
+    }
+  },
+  {
+    "invoiceId": 1003,
+    "passengerId": 4102,
+    "issueDate": "2024-03-10",
+    "amount": 8500.00,
+    "balance": 8500.00,
+    "status": "Unpaid",
+    "description": "Invoice for March 2024",
+    "payments": [],
+    "passengerInfo": {
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone": "+1-555-0789",
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601"
+      }
+    }
+  }
+]
