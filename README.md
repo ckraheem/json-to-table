@@ -29,7 +29,7 @@ A lightweight, client-side web tool to convert and visualize JSON data as intera
 
 ## 🚀 Live Demo
 
-**Try it now:** [https://ckraheem.github.io/json-table](https://ckraheem.github.io/json-table)
+**Try it now:** [https://ckraheem.github.io/json-to-table](https://ckraheem.github.io/json-to-table)
 
 ## 📖 Usage
 
